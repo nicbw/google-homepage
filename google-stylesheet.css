@@ -3,12 +3,17 @@ ul {
     margin: 15px 10px;
     padding: 0;
     overflow: hidden;
+    font-size: 13px;
+    opacity:0.75;
+    text-decoration:none;
 }
 
-#nav {
+#topnav {
     float: left;
 }
-#nav a {
+
+#toprightnav {
+    float:right;
     display:block;
     color:black;
     text-align:center;
@@ -17,23 +22,25 @@ ul {
     text-decoration:none;
 }
 
-#rightnav {
-    float: right;
+#topnav a {
     display:block;
     color:black;
     text-align:center;
     padding: 0 7px;
     opacity: 0.75;
+    text-decoration:none;
+}
+
+#toprightnav a {
+    display:block;
+    color:black;
+    padding: 0 7px;
     text-decoration:none;
 }
 
 body {
     text-align: center;
-}
-
-footer {
-  bottom:0px;
-  position: absolute;
+    font-family: arial, sans-serif;
 }
 
 #main {
@@ -42,4 +49,47 @@ footer {
 
 #logo {
     padding-top:109px;
+}
+
+form {
+    font-size:14px;
+    border-radius:4px;
+    font-family: arial, sans-serif;
+}
+
+#botnav {
+    float:left;
+    display:block;
+    color:black;
+    text-align:center;
+    padding: 0 7px;
+    text-decoration:none;
+}
+
+#botrightnav {
+    float:right;
+    display:block;
+    color:black;
+    text-align:center;
+    padding: 0 7px;
+}
+
+#botnav a {
+    display:block;
+    color:black;
+    text-align:center;
+    padding: 0 7px;
+    text-decoration:none;
+}
+
+#botrightnav a {
+    display:block;
+    color:black;
+    text-align:center;
+    padding: 0 7px;
+    text-decoration:none;
+}
+
+#footer {
+    bottom:0px;
 }
