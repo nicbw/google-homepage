@@ -8,6 +8,10 @@ ul {
     text-decoration:none;
 }
 
+li {
+    display: inline;
+}
+
 #topnav {
     float: left;
 }
