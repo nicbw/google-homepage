@@ -27,4 +27,19 @@ ul {
     text-decoration:none;
 }
 
-body {text-align: center;}
+body {
+    text-align: center;
+}
+
+footer {
+  bottom:0px;
+  position: absolute;
+}
+
+#main {
+    padding-bottom: 35px;
+}
+
+#logo {
+    padding-top:109px;
+}
