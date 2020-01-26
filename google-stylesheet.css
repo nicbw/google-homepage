@@ -12,6 +12,17 @@ li {
     display: inline;
 }
 
+#sign-in {
+    background-color: rgb(45, 97, 230);
+    border-color: rgb(64, 101, 160);
+    border-radius:2px;
+    border-style: solid;
+    border-image-repeat:stretch;
+    color: rgb(255,255,255);
+    font-family:arial, sans-serif;
+    font: size 13px;
+}
+
 #topnav {
     float: left;
 }
